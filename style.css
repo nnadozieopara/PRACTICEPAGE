@@ -30,13 +30,13 @@ header nav ul li{
 }
 header nav ul li a{
     font-family: 'Catamaran', sans-serif;
-    font-size: 16;
+    font-size: 16px;
     color:#111;
 }
 .header-cases{
     display: none;
 }
-
+/*header*/
 .index-banner{
     width:100%;
     height: calc(100vh - 100px);
@@ -84,4 +84,35 @@ vertical-center{
     padding-top: 5px;
     font-style: italic;
     line-height: 40px;
+}
+
+/* footer */
+footer{
+    width: calc(100% - 80px);
+    padding: 40px 40px;
+    background-color: #111;
+    margin-top: 20px;
+    overflow: hidden;
+}
+footer ul{
+    width: fit-content;
+    float: left;
+    padding-left: 20px;
+}
+footer ul li{
+    display:block;
+    list-style: none;
+    color:#fff;
+}
+footer ul li a{
+    font-family: 'Catamaran', sans-serif;
+    font-size: 16px;
+    color:#fff;
+    line-height: 30px;
+}
+.footer-links-cases{
+    display: none;
+}
+.footer-sm{
+    float: right;
 }
